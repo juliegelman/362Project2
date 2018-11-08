@@ -38,37 +38,29 @@
         </ul>
       </div>
     </header>
-    <div class="field">
-          <label>Name:</label>
-          <input type = "text" name = "fName" placeholder = "Full Name">
-        </div>
-        <div class="field">
-          <label>E-mail:</label>
-          <input type = "email" name = "email_field" placeholder = "you@example.com">
-        </div>
-        <input type="checkbox" style="" id="checkbox">
-        <p>I am at least 18 years old.</p>
-        <button onclick="myFunction()">Submit</button>
-    <!-- <div class="aboutimg">
-      <h3><u>ABOUT US</u></h3>
-      <img src="images/mind.png" alt="Mind">
-      <img src="images/ethics.png" alt="Ethics">
-      <img src="images/diversity.png" alt="Diversity">
-      <img src="images/peace.png" alt="Peace">
-    </div>
-    <div class="text">
-      <p>
-        ISUD is a society of scholars, mostly philosophers, from many parts of the world, devoted to promoting international dialogue and the discussion of fundamental questions of universal concern, which affect all humanity, such as world peace, human rights, dialogical interrelations of diverse cultures, and preservation of the world ecology.
-      </p>
-      <ul>
-        <li>What role does philosophical thinking have to play in moving toward a more rational and more humane future?</li>
-        <li>What are ethical principles of dialogue?</li>
-        <li>How may one understand cultural diversity and universality?</li>
-        <li>How best to work toward a culture of peace?</li>
-        <li>What is the relationship between the basic liberties of individuals and the collective rights of cultural groups?</li>
-      </ul>
-      <p><a href="featured.html">CLICK HERE TO VIEW FEATURED MEMBER RESEARCH & PROFILES</a></p>
-      <p>Join us in the search for answers and more question. Become an active member with the ISUD. Email us <a href="contact.htl">HERE</a> for more information.</p>
-    </div> -->
+  
+        <div class='container1'>
+                <div class='box'>
+                  <form name="BetaForm" onsubmit="return checkform()" method="get" action="#null" autocomplete="on">
+                    <label for="fname">Name</label>
+                    <p><input type="text" name="first_name" id="fname" placeholder="First" ></p>
+                    <p><input type="text" name="last_name"  id="lname" placeholder="Last"></p>
+                    <label for="phone">Phone</label>
+                    <p><input type="tel" name="phone" id="phone"></p>
+                    <label for="email">E-Mail</label>
+                    <p><input type="email" name="email" id="email"></p>
+                    <select name="platform_menu" id="drop">
+                      <option value=null>Select Platform:</option>
+                      <option value="Apple">iPhone</option>
+                      <option value="Android">Android</option>
+                      <option value="Microsoft">Xbox One</option>
+                      <option value="Sony">Playstation 4</option>
+                      <option value="Nintendo">Nintendo Switch</option>
+                      <option value="Computer">PC/Mac</option>
+                    </select>
+                    <p><input type="submit" value="Join the Team!"></p>
+                  </form>
+                </div>
+              </div>
   </body>
 </html>
