@@ -6,9 +6,14 @@
 }
 .logo {
      border: 0;
-}
-.logo img{
      padding: 10px;
+     width: auto;
+     position: relative;
+}
+.name {
+     position: absolute;
+     float: right;
+
 }
 .nav {
      width: 100%;
