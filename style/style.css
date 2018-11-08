@@ -132,13 +132,39 @@ h1 {
      visibility: visible;
      opacity: 1;
 }
-input[name="fName"], input[name="email_field"] {
-	text-align: center;
-	font-family: inherit;
-	font-size: 20px;
-	color: white;
 
-	border: 10;
+.container1 {
+    float: center;
+     width: auto;
+     display: block;
+     text-align: center;
+     margin: auto;
+     padding: 15px;
+     color: black;
+}
+ .box {
+     padding: 10px;
+     border: 1px white;
+     width: 50%;
+     float: center;
+     background-color: #696969;
+}
+input {
+
+     display: table-cell;
+     width: 50%;
+     text-align: center;
+     color: black;
+     border-radius: 6px;
+     border: 1px solid #ccc;
+     padding: 12px 20px;
+     margin: 8px 0;
+}
+input[type="text"]{
+  height: 70px;
+}
+ input::placeholder {
+     text-align: center;
 }
 
 @media only screen and (max-width: 610px) {
