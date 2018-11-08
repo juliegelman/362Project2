@@ -1,14 +1,10 @@
  nav#horizontal {
-     border-radius: 5px;
-     border: solid;
-     width: 950px;
+     border:1px solid #ccc;
+     border-width:1px 0;
      position: relative;
-     left: 10%;
      margin: 10px;
  }
  nav#horizontal ul {
-     background-color: gray;
-     border-width: 1px 0;
      list-style: none;
      margin: 0;
      padding: 0;
@@ -18,7 +14,6 @@
      font-size: 1em;
      display: inline-block;
      padding: 5px;
-     background-color: gray;
      border-radius: 4px;
      width: 220px;
 }
@@ -28,19 +23,17 @@
      color: black;
 }
  nav#horizontal ul li a:hover {
-     color: white;
+     color: red;
 }
-nav#horizontal2 {
-     border-radius: 5px;
-     border: solid;
-     width: 700px;
+
+ nav#horizontal2 {
+     border:1px solid #ccc;
+     border-width:1px 0;
      position: relative;
-     left: 20%;
-     margin: 10px;
+     margin: auto;
+     width: 50%;
  }
  nav#horizontal2 ul {
-     background-color: gray;
-     border-width: 1px 0;
      list-style: none;
      margin: 0;
      padding: 0;
@@ -50,9 +43,8 @@ nav#horizontal2 {
      font-size: 1em;
      display: inline-block;
      padding: 5px;
-     background-color: gray;
      border-radius: 4px;
-     width: 150px;
+     width: 220px;
 }
  nav#horizontal2 ul li a {
      padding: 5px;
@@ -60,9 +52,5 @@ nav#horizontal2 {
      color: black;
 }
  nav#horizontal2 ul li a:hover {
-     color: white;
-}
-
- li a.active {
-     background-color: white;
+     color: red;
 }
