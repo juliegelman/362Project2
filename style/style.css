@@ -1,7 +1,6 @@
 html {
-     font-family: 'Open Sans Condensed','Karla', Helvetica, sans-serif;
+     font-family: 'Open Sans Condensed', 'Karla', Helvetica, sans-serif;
 }
-
 
 .text {
      width: 50%;
@@ -15,23 +14,26 @@ header {
      background-color: #034f84;
      font-family: 'Open Sans Condensed', sans-serif;
 }
+
 h3 {
      font-size: 2em;
      line-height: 30px;
 }
+
 .aboutimg {
      width: auto;
      margin: 0 250px;
-      text-align: center;
-     }
+     text-align: center;
+}
+
 .aboutimg h3 {
      text-align: left;
 }
+
 .aboutimg img {
      border-radius: 50%;
      margin: 5px;
      border: 2px solid;
-
 }
 
 .logo {
@@ -41,21 +43,24 @@ h3 {
      margin: 0;
      height: 200px;
      text-align: center;
-
 }
+
 .logo img {
      float: left;
 }
+
 .logo p {
      padding: 30px;
      font-size: 3.2em;
      line-height: 50px;
      color: white;
 }
+
 .nav {
      width: 100%;
      border: none;
 }
+
 .nav ul {
      list-style: none;
      background-color: #034f84;
@@ -103,7 +108,6 @@ h3 {
 .nav>ul>li>a,
 h1 {
      text-transform: uppercase;
-
 }
 
 .nav a {
