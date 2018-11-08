@@ -30,6 +30,9 @@ h3 {
      border-radius: 50%;
      margin: 5px;
      border: 2px solid;
+     max-width: 100%;
+     height: auto;
+     width: auto
 }
 
 .logo {
@@ -130,35 +133,50 @@ h1 {
      opacity: 1;
 }
 
-
-
- @media only screen and (max-width: 480px){
+@media only screen and (max-width: 610px) {
      header {
-         width: 100%;
-         font-size: .5em;
-    }
-    img {
-     height: 50px;
-     width: 50px;
-    }
-     .box {
-         width: 100%;
-         margin: 0 auto;
-    }
-     .background {
-         min-height: 720px;
-    }
-     .footer {
-         width: auto;
-         color: white;
-         position: relative;
-         padding: 10px;
-         text-align: center;
-    }
-     body {
-         font-size: 1.5em;
-    }
-     h1 {
-         font-size: 2.5em;
-    }
+          width: 100%;
+          font-size: 100% !important;
+          position: static;
+     }
+     header p {
+          margin: 0;
+          font-size: 100% !important;
+          line-height: 20px !important;
+          width: auto;
+     }
+     .nav li {
+          font-size: 100%;
+          position: relative;
+          width: auto;
+     }
+     .nav li:hover,
+     .nav li:hover li {
+          background-color: #034f84;
+     }
+     .text {
+          font-size: 1em;
+          width: auto;
+          text-align: center;
+          padding: 10px;
+     }
+     .text ul {
+          text-align: left;
+     }
+     .logo {
+          margin: 0 !important;
+          height: 100px;
+     }
+     h3 {
+          font-size: 1em;
+     }
+     .aboutimg {
+          width: auto;
+          margin: 0;
+          text-align: center;
+     }
+     img {
+          height: 50px !important;
+          width: 50px !important;
+     }
 }
