@@ -132,6 +132,14 @@ h1 {
      visibility: visible;
      opacity: 1;
 }
+input[name="fName"], input[name="email_field"] {
+	text-align: center;
+	font-family: 'Kodchasan',cursive;
+	font-size: 20px;
+	color: white;
+	background-color: black;
+	border: 0;
+}
 
 @media only screen and (max-width: 610px) {
      header {
