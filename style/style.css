@@ -3,7 +3,7 @@ html {
 }
 
 
-#text {
+.text {
      width: 50%;
      margin: 0 auto;
      padding: 5px;
@@ -128,3 +128,4 @@ h1 {
 .nav li:hover>ul {
      visibility: visible;
      opacity: 1;
+}
