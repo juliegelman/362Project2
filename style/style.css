@@ -30,6 +30,9 @@ h3 {
      border-radius: 50%;
      margin: 5px;
      border: 2px solid;
+     max-width: 100%;
+     height: auto;
+     width: auto
 }
 
 .logo {
@@ -140,25 +143,5 @@ h1 {
     img {
      height: 50px;
      width: 50px;
-    }
-     .box {
-         width: 100%;
-         margin: 0 auto;
-    }
-     .background {
-         min-height: 720px;
-    }
-     .footer {
-         width: auto;
-         color: white;
-         position: relative;
-         padding: 10px;
-         text-align: center;
-    }
-     body {
-         font-size: 1.5em;
-    }
-     h1 {
-         font-size: 2.5em;
     }
 }
