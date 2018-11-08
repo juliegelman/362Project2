@@ -133,15 +133,50 @@ h1 {
      opacity: 1;
 }
 
-
-
- @media only screen and (max-width: 480px){
+@media only screen and (max-width: 610px) {
      header {
-         width: 100%;
-         font-size: .5em;
-    }
-    img {
-     height: 50px;
-     width: 50px;
-    }
+          width: 100%;
+          font-size: 100% !important;
+          position: static;
+     }
+     header p {
+          margin: 0;
+          font-size: 100% !important;
+          line-height: 20px !important;
+          width: auto;
+     }
+     .nav li {
+          font-size: 100%;
+          position: relative;
+          width: auto;
+     }
+     .nav li:hover,
+     .nav li:hover li {
+          background-color: #034f84;
+     }
+     .text {
+          font-size: 1em;
+          width: auto;
+          text-align: center;
+          padding: 10px;
+     }
+     .text ul {
+          text-align: left;
+     }
+     .logo {
+          margin: 0 !important;
+          height: 100px;
+     }
+     h3 {
+          font-size: 1em;
+     }
+     .aboutimg {
+          width: auto;
+          margin: 0;
+          text-align: center;
+     }
+     img {
+          height: 50px !important;
+          width: 50px !important;
+     }
 }
