@@ -62,3 +62,7 @@ nav#horizontal2 {
  nav#horizontal2 ul li a:hover {
      color: white;
 }
+
+ li a.active {
+     background-color: white;
+}
