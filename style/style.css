@@ -134,10 +134,10 @@ h1 {
 }
 input[name="fName"], input[name="email_field"] {
 	text-align: center;
-	font-family: 'Kodchasan',cursive;
+	font-family: inherit;
 	font-size: 20px;
 	color: white;
-	background-color: black;
+
 	border: 0;
 }
 
