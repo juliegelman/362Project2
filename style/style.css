@@ -160,9 +160,7 @@ input {
      padding: 12px 20px;
      margin: 8px 0;
 }
-input[type="text"]{
-  height: 70px;
-}
+
  input::placeholder {
      text-align: center;
 }
