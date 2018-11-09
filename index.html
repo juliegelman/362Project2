@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Karla%7cOpen+Sans+Condensed:300,300i" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style/normalize.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <title>ISUD | Contact</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/logo.jpg" alt="Logo">
+        <p><strong><em>International Society for Universal Dialogue</em></strong></p>
+      </div>
+      <div class="nav">
+        <ul>
+           <li><a href="index.html">Home</a></li>
+          <li>
+           <a class="inactive" href="aboutUs.html">About Us</a>
+            <ul class="dropdown">
+              <li> <a href="history.html">History</a></li>
+              <li> <a href="consitution.html">Consitution</a></li>
+              <li> <a href="boardOfDirectors.html">Board of Directors</a></li>
+              <li> <a href="journal.html">D & U Journal</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="announcements.html"> Announcements / Events</a>
+            <ul class="dropdown">
+              <li> <a href="pastEvents.html">Past Events</a></li>
+              <li> <a href="currentEvent.html">Current Event</a></li>
+              <li> <a href="upcomingEvents.html">Upcoming Events</a></li>
+            </ul>
+          </li>
+
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+        <div class='container1'>
+                <div class='box'>
+                  <form name="BetaForm" onsubmit="return checkform()" method="get" action="#null" autocomplete="on">
+                    <label for="fname">Name</label>
+                    <p><input type="text" name="first_name" id="fname" placeholder="Full Name" ></p>
+                    <label for="email">E-Mail</label>
+                    <p><input type="email" name="email" id="email" placeholder="you@example.com"></p>
+
+                  <textarea rows="5" cols="70" placeholder="Enter your message here"></textarea>
+                  <p>
+                    <button onclick="subFunction()">Submit</button>
+         <p id="subbut"></p>
+                  </form>
+                </div>
+              </div>
+  </body>
+</html>
