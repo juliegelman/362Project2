@@ -16,6 +16,10 @@ section#recap{
     border-style: double;
 
 }
+li{
+  text-align: left;
+  padding-top: inherit;
+}
 .text {
      width: 50%;
      margin: 0 auto;
