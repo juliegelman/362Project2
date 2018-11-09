@@ -6,3 +6,6 @@ function myFunction() {
     x.style.display = "block";
   }
 }
+function subFunction(){
+ document.getElementById("subbut").innerHTML = "Hello World";
+}

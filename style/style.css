@@ -11,7 +11,15 @@ h3 {
      font-size: 2em;
      line-height: 30px;
 }
+section#recap{
+    position: static;
+    border-style: double;
 
+}
+li{
+  text-align: left;
+  padding-top: inherit;
+}
 .text {
      width: 50%;
      margin: 0 auto;
@@ -157,12 +165,10 @@ input {
      color: black;
      border-radius: 6px;
      border: 1px solid #ccc;
-     padding: 12px 20px;
+     padding: 12px 12px;
      margin: 8px 0;
 }
-input[type="text"]{
-  height: 70px;
-}
+
  input::placeholder {
      text-align: center;
 }
@@ -203,6 +209,7 @@ input[type="text"]{
      }
      h3 {
           font-size: 1em;
+
      }
      .aboutimg {
           width: auto;
