@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style/normalize.css">
     <link rel="stylesheet" type="text/css" href="style/style.css">
-    <script src="javascript/script.js" async></script>
+    <script src="js/javascript.js" async></script>
     <title>ISUD | Home</title>
   </head>
   <body>
@@ -60,14 +60,21 @@
                </ul>
 
              </section>
-             <div class="gallery">
-     <ul class="slider">
-       <li><img src="images/hackathon.jpg"/></li>
-       <li><img src="images/oldman.jpg" alt="sushi" title="One of my favorite foods, sushi"/></li>
-       <li><img src="images/lima.jpg" alt="chicago" title="The prettiest city in the midwest, Chicago"/></li>
-       <li><img src="images/woman.jpg" alt="beach" title="I love the beach, I'd love to visit this one right about now"/></li>
-     </ul>
-   </div>
+             <div class="slider-holder">
+           <span id="slider-image-1"></span>
+           <span id="slider-image-2"></span>
+           <span id="slider-image-3"></span>
+           <div class="image-holder">
+               <img src="images/hackathon.jpg" class="slider-image" />
+               <img src="images/oldman.jpg" class="slider-image" />
+               <img src="images/lima.jpg" class="slider-image" />
+           </div>
+           <div class="button-holder">
+               <a href="#slider-image-1" class="slider-change"></a>
+               <a href="#slider-image-2" class="slider-change"></a>
+               <a href="#slider-image-3" class="slider-change"></a>
+           </div>
+       </div>
 
   </body>
 </html>
