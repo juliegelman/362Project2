@@ -10,6 +10,7 @@ header {
 h3 {
      font-size: 2em;
      line-height: 30px;
+     text-align: center;
 }
 section#recap{
     position: static;
@@ -145,6 +146,9 @@ h1 {
     width: 75%;
     height: 75%;
     opacity: 1.0;
+}
+.slider li{
+     text-decoration: none;
 }
 
 
