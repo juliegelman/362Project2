@@ -149,8 +149,7 @@ h1 {
 
 
 .container1 {
-    float: center;
-     width: auto;
+     width: 50%;
      display: block;
      text-align: center;
      margin: auto;
@@ -161,7 +160,7 @@ h1 {
      padding: 10px;
      border: 1px white;
      width: 50%;
-     float: center;
+     margin: auto;
      background-color: #696969;
 }
 input {
