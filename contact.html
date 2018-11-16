@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,9 +15,9 @@
       </div>
       <div class="nav">
         <ul>
-           <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li>
-           <a class="inactive" href="aboutUs.html">About Us</a>
+            <a class="inactive" href="aboutUs.html">About Us</a>
             <ul class="dropdown">
               <li> <a href="history.html">History</a></li>
               <li> <a href="consitution.html">Consitution</a></li>
@@ -34,26 +33,25 @@
               <li> <a href="upcomingEvents.html">Upcoming Events</a></li>
             </ul>
           </li>
-
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
     </header>
-  <h3><u>CONTACT</u></h3>
-        <div class='container1'>
-                <div class='box'>
-                  <form name="BetaForm" onsubmit="return checkform()" method="get" action="#null" autocomplete="on">
-                    <label for="fname">Name</label>
-                    <p><input type="text" name="first_name" id="fname" placeholder="Full Name" ></p>
-                    <label for="email">E-Mail</label>
-                    <p><input type="email" name="email" id="email" placeholder="you@example.com"></p>
+    <h3><u>CONTACT</u></h3>
+    <div class='container1'>
+      <div class='box'>
+        <form name="BetaForm" onsubmit="return checkform()" method="get" action="#null" autocomplete="on">
+          <label for="fname">Name</label>
+          <p><input type="text" name="first_name" id="fname" placeholder="Full Name" ></p>
+          <label for="email">E-Mail</label>
+          <p><input type="email" name="email" id="email" placeholder="you@example.com"></p>
+          <textarea rows="5" cols="70" placeholder="Enter your message here"></textarea>
+          <p>
+            <button onclick="subFunction()">Submit</button>
+            <p id="subbut"></p>
+          </form>
+        </div>
+      </div>
+    </body>
+  </html>
 
-                  <textarea rows="5" cols="70" placeholder="Enter your message here"></textarea>
-                  <p>
-                    <button onclick="subFunction()">Submit</button>
-         <p id="subbut"></p>
-                  </form>
-                </div>
-              </div>
-  </body>
-</html>
