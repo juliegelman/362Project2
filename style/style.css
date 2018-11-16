@@ -140,6 +140,13 @@ h1 {
      visibility: visible;
      opacity: 1;
 }
+.slider img{
+    margin:0 auto;
+    width: 75%;
+    height: 75%;
+    opacity: 1.0;
+}
+
 
 .container1 {
     float: center;
