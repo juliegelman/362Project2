@@ -27,6 +27,7 @@ li{
      padding: 5px;
      font-size: 1.5em;
      font-family: 'Karla', sans-serif;
+     text-align: center;
 }
 
 .aboutimg {
@@ -82,6 +83,7 @@ li{
      line-height: 40px;
      display: inline-block;
      transition-duration: 0.5s;
+     text-align: center;
 }
 
 .nav a {
@@ -146,6 +148,17 @@ h1 {
     width: 75%;
     height: 75%;
     opacity: 1.0;
+}
+.slider li{
+     text-decoration: none;
+}
+
+textarea{
+    height: 100%;
+    width: 100%;
+   -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;  
+    box-sizing: border-box; 
 }
 
 
