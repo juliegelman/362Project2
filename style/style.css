@@ -169,14 +169,16 @@ textarea{
      margin: auto;
      padding: 15px;
      color: black;
+     font-size: 100%;
 
 }
  .box {
      padding: 10px;
      border: 1px white;
-     width: 50%;
+     width: auto;
      margin: auto;
      background-color: #696969;
+     border-radius: 4px;
 }
 input {
 
@@ -185,9 +187,12 @@ input {
      text-align: center;
      color: black;
      border-radius: 6px;
-     border: 1px solid #ccc;
+     border: 2px solid #ccc;
      padding: 12px 12px;
      margin: 8px 0;
+}
+label {
+     font-size: 2.5em;
 }
 
  input::placeholder {
@@ -206,6 +211,14 @@ input {
           line-height: 20px !important;
           width: auto;
      }
+     .container1 {
+          width: auto;
+          font-size: 100%;
+     }
+     .box {
+         width: 100% !important;
+         margin: 0 auto !important;
+    }
      .nav li {
           font-size: 100%;
           position: relative;
@@ -231,7 +244,6 @@ input {
      h3 {
           font-size: 1em;
 
-
      }
      .aboutimg {
           width: auto;
@@ -242,8 +254,32 @@ input {
           height: 50px !important;
           width: 50px !important;
      }
+     
+
+ @media only screen and (min-width: 100px){
+     .header {
+         width: 100%;
+         text-align: center;
+         margin: 0;
+    }
      .box {
          width: 100%;
          margin: 0 auto;
-
+    }
+     .background {
+         min-height: 720px;
+    }
+     .footer {
+         width: auto;
+         color: white;
+         position: relative;
+         padding: 10px;
+         text-align: center;
+    }
+     body {
+         font-size: 4em;
+    }
+     h1 {
+         font-size: 2.5em;
+    }
 }
