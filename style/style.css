@@ -16,6 +16,7 @@ section#recap{
     position: static;
     border-style: double;
 
+border-radius: 30px;
   display: grid;
 
 }
